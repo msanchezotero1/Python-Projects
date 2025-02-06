@@ -1,0 +1,49 @@
+# Climate Change Analysis in San Antonio
+
+### Objective
+This project analyzes historical **temperature and precipitation trends** in **San Antonio, TX** using **climate data**. The goal is to:
+- Examine **temperature changes** over time.
+- Identify **precipitation patterns**.
+- Predict **future temperature trends** using a **linear regression model**.
+
+### Dataset
+- **Source:** NOAA (National Oceanic and Atmospheric Administration)
+- **File:** `USW00012921.csv`
+- **Data Includes:**
+  - `DATE`: Yearly records of climate data.
+  - `TMAX`, `TMIN`, `TAVG`: Max, Min, and Avg temperature (°C).
+  - `PRCP`: Precipitation (in mm).
+
+### Key Findings
+- Average **temperature is increasing** over time.
+- Precipitation shows **irregular trends**, with some extreme weather years.
+- **Future projections** suggest a steady **rise in temperature**.
+
+### Methods Used
+- **Data Cleaning & Processing** (`pandas`)
+- **Visualizations** (`seaborn`, `matplotlib`)
+- **Linear Regression Model** (`sklearn.linear_model`)
+
+### Files
+- `Climate Change San Antonio.ipynb` → Jupyter Notebook with the full analysis.
+- san_antonio_temperature_trends.png` → Temperature trends visualization.
+- `future_temperature_predictions.png` → Predicted temperatures for the next 50 years.
+- `USW00012921.csv` → Raw climate dataset.
+
+---
+
+### Insights & Predictions
+- **San Antonio is getting warmer** .
+- By **2075**, the **average temperature is projected to be significantly higher**.
+- More **climate variability** could lead to **extreme heat waves**.
+
+ **This project highlights the importance of climate monitoring!** 
+
+---
+
+#### Next Steps
+- Extend the model with **climate change factors** (CO₂, urbanization).
+- Compare trends with **other Texas cities**.
+- Improve forecasting using **advanced ML models**.
+
+
