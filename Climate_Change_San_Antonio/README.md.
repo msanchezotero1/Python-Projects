@@ -26,7 +26,6 @@ This project analyzes historical **temperature and precipitation trends** in **S
 
 ### Files
 - `Climate Change San Antonio.ipynb` → Jupyter Notebook with the full analysis.
-- san_antonio_temperature_trends.png` → Temperature trends visualization.
 - `future_temperature_predictions.png` → Predicted temperatures for the next 50 years.
 - `USW00012921.csv` → Raw climate dataset.
 
